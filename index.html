@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewsHub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- navbar   -->
+   <header class="navbar">
+    <h1>News<span>Hub</span></h1>
+    <p>Your daily news destination</p>
+   </header>
+   <!-- category -->
+    <nav class="categories">
+    <button data-category="General" class="active">General</button>
+    <button data-category="Technology">Technology</button>
+    <button data-category="Business">Business</button>
+    <button data-category="Sports">Sports</button>
+    <button data-category="Health">Health</button>
+    <button data-category="Science">Science</button>
+    <button data-category="Entertainment">Entertainment</button>
+    </nav>
+    <!-- main content -->
+     <main class="container">
+        <h2 id="heading">Latest News</h2>
+        <p id="status">Loading news...</p>
+        <section  id="newsContainer" class="news-container">
+            <!-- news appear here -->
+        </section>
+
+     </main>
+     <!-- footer -->
+     <footer>
+        <p>&copy; 2026 NewsHub. All rights reserved.</p>
+     </footer>
+
+     <script src="script.js"></script>
+</body>
+</html>
